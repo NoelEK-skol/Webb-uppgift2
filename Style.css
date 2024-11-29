@@ -56,7 +56,7 @@ nav{
 
 header{
     grid-area: header;
-    background-color: aqua;
+    background-color: #3D8EC0;
 }
 
 main{
@@ -112,4 +112,40 @@ footer{
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 10px 80px
+}
+
+#ProduktBild{
+    max-height: 50%;
+    max-width: calc(100% - 5px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#green{
+    accent-color: #6D885A;
+    scale: 200%;
+    margin: 10px;
+    
+}
+
+#mintgreen{
+    accent-color: #91AF7B;
+    scale: 200%;
+    margin: 10px;
+}
+
+#pink{
+    accent-color: #D3B2B5;
+    scale: 200%;
+    margin: 10px;
+}
+
+#KöpNu{
+    background-color: #6D885A;
+    margin-right:80%; 
+    border: solid 1px #6D885A;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
 }
