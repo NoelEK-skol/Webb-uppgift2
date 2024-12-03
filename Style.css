@@ -78,7 +78,7 @@ aside{
 
 footer{
     grid-area: footer;
-    background-color: darkblue;
+    background-color: #666;
     padding: 15px;
 }
 
@@ -94,6 +94,7 @@ footer{
         "footer footer footer footer";
     }
 }
+
 
 #kontakta{
     display: flex;
@@ -123,7 +124,7 @@ footer{
     max-height: 50%;
     max-width: calc(100% - 5px);
     display: block;
-    margin-left: auto;
+    margin-left: 2%;
     margin-right: auto;
 }
 
@@ -153,4 +154,31 @@ footer{
     border-radius: 10px;
     text-align: center;
     color: white;
+}
+#KöpNu:hover {
+    background-color: #5a704a;
+}
+
+
+button{
+    border: none;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.FärgKnapp[data-color="green"]{
+    background-color: #6D885A;
+}
+
+.FärgKnapp[data-color="mintgreen"]{
+    background-color: #91AF7B;
+}
+
+.FärgKnapp[data-color="pink"]{
+    background-color: #D3B2B5;
 }
