@@ -22,7 +22,7 @@ header h1{
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #666;
+    background-color: #52624f;
 }
 
 .navbar a:hover {
@@ -47,8 +47,7 @@ header h1{
     "footer footer footer footer";
 }
 .home {
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 0.4fr 0.4fr 9fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-areas: 
     "header header header header"
     "nav nav nav nav"
@@ -61,25 +60,26 @@ nav{
 
 header{
     grid-area: header;
-    background-color: #3D8EC0;
+    background-color: #357eab;
 }
 
 main{
     grid-area: main;
-    background-color: white ;
+    background-color: #606D5D ;
     padding: 15px;
 }
 
 aside{
     grid-area: aside;
-    background-color: white;
+    background-color: #355441;
     padding: 15px;
 }
 
 footer{
     grid-area: footer;
-    background-color: #666;
+    background-color: #52624f;
     padding: 15px;
+    text-align: center;
 }
 
 
@@ -117,7 +117,7 @@ footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 10px 80px
+    box-shadow: 0 0 80px
 }
 
 #ProduktBild{

@@ -1,0 +1,12 @@
+#TackSida{
+    background-color:  #606D5D;
+    text-align: center;
+    padding: 10vw;
+}
+#TackSida button {
+    border-radius: 1px;
+    padding: 10px;
+}
+.btn{
+    box-shadow: 10px;
+}
