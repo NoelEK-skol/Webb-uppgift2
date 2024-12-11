@@ -53,6 +53,7 @@ header h1{
     "nav nav nav nav"
     "main main main main"
     "footer footer footer footer";
+    background-color: #606D5D;
 }
 nav{
     grid-area: nav;
@@ -73,6 +74,7 @@ aside{
     grid-area: aside;
     background-color: #355441;
     padding: 15px;
+    border: 2px solid black;
 }
 
 footer{
@@ -95,11 +97,22 @@ footer{
     }
 }
 
+#KontaktaText{
+    text-align: center;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    margin-top: -10px;
+}
 
 #kontakta{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
     justify-content: center;
+    position: absolute;
+    width: 100vw;
+    left: 0;
 }
 #Meddelande{
     resize: none;
@@ -123,28 +136,6 @@ footer{
 #ProduktBild{
     max-height: 50%;
     max-width: calc(100% - 5px);
-    display: block;
-    margin-left: 2%;
-    margin-right: auto;
-}
-
-#green{
-    accent-color: #6D885A;
-    scale: 200%;
-    margin: 10px;
-    
-}
-
-#mintgreen{
-    accent-color: #91AF7B;
-    scale: 200%;
-    margin: 10px;
-}
-
-#pink{
-    accent-color: #D3B2B5;
-    scale: 200%;
-    margin: 10px;
 }
 
 #KöpNu{
@@ -162,8 +153,8 @@ footer{
 
 button{
     border: none;
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     cursor: pointer;
     border-width: 1px;
